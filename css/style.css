@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: seashell;
+  background-image: url(../img/adv.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  /* om optelossen dat altijd img boven staat*/
+
+  background-size: cover;
+}
+
+#fb {
+  background-image: url(../img/fb.png);
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  background-color: #3b5998;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+
+
+}
+
+#fb:hover {
+  background-color: #6d84b4;
+  cursor: pointer;
+  width: 256px;
+  transition: all 1s;
+
+
+}
+
+#twit {
+  background-image: url(../img/twitter.png);
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  background-color: deepskyblue;
+  position: fixed;
+  right: 20px;
+  top: 0px;
+}
+
+#twit:hover {
+  background-color: #83e0ff;
+  cursor: pointer;
+  height: 400px;
+  transition: all 1s;
+}
+
+#pin {
+  background-image: url(../img/pinterest.png);
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  background-color: crimson;
+  position: fixed;
+  right: 20px;
+  top: 300px;
+}
+
+#pin:hover {
+
+  background-color: #d8405f;
+  right: 40px;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 1s;
+}
